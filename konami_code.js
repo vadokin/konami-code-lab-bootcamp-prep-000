@@ -4,7 +4,7 @@ function init() {
   let index = 0
 
   function onKeyDownHeandler(e) {
-    const key = parseInt(e.detail || e.which)
+    const key = parseInt(e.detail || e.which || e.location)
   }
 
 }
