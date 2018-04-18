@@ -6,7 +6,7 @@ function init() {
   function onKeyDownHeandler(e) {
     const key = parseInt(e.detail || e.which || e.location)
     if (key === code[index]) {
-
+      index++
     } else {
 
     }
