@@ -5,6 +5,10 @@ function init() {
 
   function onKeyDownHeandler(e) {
     const key = parseInt(e.detail || e.which || e.location)
-
+    if (true) {
+      
+    } else {
+      
+    }
   }
 }
