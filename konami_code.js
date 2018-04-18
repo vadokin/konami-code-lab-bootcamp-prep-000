@@ -8,7 +8,7 @@ function init() {
     const key = parseInt(e.detail || e.which || e.location)
     if (key === code[index]) {
       index++
-      console.log(e.which)
+      // console.log(e.which)
       if (index === code.length) {
         alert('Congratulations!\nYou WON!')
         index = 0
